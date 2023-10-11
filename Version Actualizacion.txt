@@ -1,3 +1,52 @@
+1.5.3
+ 6 de Octubre
+ - ajustes en boton de panel de control para mejor logica en funcionamiento
+ - se arregla problema de escala en lecturas de sensor esp
+ - se inicia con intento de Scroll (aun no funcional)
+ - Arreglos menores en formularios extra
+
+1.5.2
+ 5 de Octubre
+ - se cambia el nombre de Form 3 a Panel de Control
+ - se agrega una exepcion para que al cerrar el programa no ocurra un error (referente al Panel de Control)
+ - Finalmente el Datagrid dejó de tener los saltos por lectura de sensor
+ - Grafica totalmente funcional
+ - se añadio un form extra para las pruebas de los dos anteriores incisos,)es posible que al ejecutar y compilar se abra dicha pestaña, revisar punto de inicio=
+
+1.5.1
+ 4 octubre
+- Se ajusta la respuesta de datos para que no genere error con el portatil HP Stream x360
+- se añade junto con la salida en el puerto serial las palabras KP KI KD para el identificador
+- Se ajusta la salida de los label del from control pid para el identificador
+- Se ajusta la escala de agauge del from control pid 
+
+
+1.5
+ 27 Septiembre
+- Se añade dentro de las opciones de interaccion la opcion: control pid
+- se añade un form llamado controlpid
+- se añade la clase Agauge para el forms control pid
+- Dentro del menu principal se cambia la exclusividad del operador respecto al tester
+- El atajo se cambia por el form control pid
+
+1.4.1
+ 26 Septiembre
+- Actualmente se encuentra funcional el acceso y discriminacion de botones por cargo, editar opciones de ser necesario
+- Saltos por boton puerta trasera deshabilitado totalmente, ahora se puede saltar entre forms unicos pero no interactuar con menu principal si no existe un tipo de usuario asignado
+
+1.4.0
+ 25 Septiembre
+- Se ha iniciado con la habilitacion de botones por usuario, actualmente falta definir funcionalidades y habilitacion por cargo, puerta ahora abre directamente a centro de Control
+
+1.3
+ 22 Septiembre
+- Actualmente se encuentra Funcional boton de iniciar monitorizacion en el DataGrid View y grafica los datos entregados acorde a lo recibido por el sensor
+ - Botones Iniciar, Detener y Limpiar tienen su prioridad y funcionamiento correctamente
+ - Botón de Exportar a Excel Funcional (error al momento de  iniciar exportacion "Error alacceder a la hoja ..."
+ - Boton crea un archivo con los datos acordes en la ruta y la menciona ejemplo Buscar en carpeta "Revival NV\bin\Debug"
+ - barra de carga para exportacion de datos a archivo excel funcional
+ - Se prueba volver a generar excel, se visualiza que actualiza el archivo anteriormente creado (crea un archivo actualizable por dia)
+
 1.2
  19 Septiembre
 - Puerto Serial Arduino Funciona, lectura en ardduino correcta
