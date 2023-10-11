@@ -1,0 +1,8 @@
+1.2
+ 19 Septiembre
+- Puerto Serial Arduino Funciona, lectura en ardduino correcta
+- pero datos formato erroneo(? 
+
+1.1
+ 17 octubre
+Comunicación Serial Lectura y envio de datos en Hercules correcta
