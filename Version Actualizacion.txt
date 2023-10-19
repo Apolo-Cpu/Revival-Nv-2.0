@@ -1,3 +1,39 @@
+1.5.5
+ 19 de Octubre
+ - se ha modificado la logiga enel boton "botonconectar" al parecer contenia el origen de los cierres repentinos y errores del puerto serial, se ha dejado unicamente la funcion de conectrar y la desconexion se hace por parte de boitones en el siguiente inciso
+ - se actualizó el form controlpid con dos nuevos botones en la parte superior izzquierda y derecha conlas funciones de "reset" y "cierre de formulario" seguros, asegurandonos en la correcta activacion y cierre del puerto serial
+ - Se añadio Prueba_Lectura_Esp (definir uso)
+ - se realizan cambio de nombres de "Command Center" a "Registro y Gráfico"
+ - se han cambiado nombres como "PanelMediaInteraccion" a "panelInteraccion"
+ - Se mantiene opcion de Ayuda por idea de guia interactiva (pendiente) en carpetas guia a:
+"...Revival NV1.5.5\Revival NV\Revival NV\Iconos o imagenes\Ayuda Imagenes\Revival Capturas no compress"
+ - Por falta de Uso/aplicación, se han eliminado los siguientes items:
+ * Botones de nombre: BCManual, BHerramientas, button13, button12, button9, button8, button7 & BOtros 
+ * Paneles de nombre: panelToolsSubMenu
+
+1.5.4.2
+ 18 de Octubre
+ - Se unifican los formularios Control PID y Control Manual por temas de redundancia en conexion y facilidad en implementacion
+ - Se redistribuye el Panel de control y se deja en forma de comentario la exportacion a excel
+
+1.5.4.1
+ 13 de Octubre
+ - Se añade en el form controlpid un retorno para refrescar el form y poder utlizar el puerto serial las veces deseadas
+
+1.5.4
+ 12 de Octubre
+ - se arregla la recepcion de datos del form controlpid, se le agrega una condicion para que no genere error al no tener una conversion exitosa a float. la condicion float.tryparse
+ - Se arregla la muestra de colores del form controlpid, se quita el timertick para la condicion de los colores, se agrega un nuevo private void llamado actualizaciontacometro
+   y desde la recepcion del dato se hace llamado a dicho void
+ - el textbox para el angulo del form controlpid se ajusta para no poder editar.
+ - Se arregla la desconexion del puerto serial del form controlpid, se agrega una condicion al Datorecibido para que no siga recibiendo datos y pueda cerrar el puerto. 
+   Tener en cuenta que a partir de la segunda conexion y desconexion del puerto serial, el float valsensor deja de recibir dato pero el envio de datos
+   Kp,Ki,Kd se ejecuta de manera normal
+ - en el from paneldecontrol se arregla el desplazamiento de la actualizacion del datagrid a cualquier tamaño de pantalla
+ - se arregla la recepcion de datos del form paneldelcontrol, ya no muestra valores incoherentes cuando se hace registro, no se suman los datos recibidos
+ - Se arregla la desconexion del puerto serial del form paneldecontrol, ahora es estable la desconexion del puerto serial.
+ - se actualiza los baudios a 115200 para el form controlpid y se configura el thread.sleep para tener una recepcion sin errores.
+
 1.5.3
  6 de Octubre
  - ajustes en boton de panel de control para mejor logica en funcionamiento
