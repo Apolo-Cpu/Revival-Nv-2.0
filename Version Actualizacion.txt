@@ -1,3 +1,25 @@
+1.6.1
+ 25 de Octubre
+ - Se configura el identificador y queda funcional para todos los form (controlpid,paneldecontrol,prueba lectura esp), los nombres son: total,grade,integral,proporcional,derivativo
+ - En el form prueba lectura esp queda funcional la muestra de las graficas para PID,P,I,D
+ - En el form prueba lectura esp queda configurado los botones de cierre y desconexion para que haga cierre y refresco del form respectivamente
+ - En el form controlpid el identificador solo toma en cuenta el nombre "grade"
+ - En el form paneldecontrol el identificador solo toma en cuenta el nombre "grade"
+ - En el form prueba lectura esp el identificador toma en cuenta todas los nombres "grade","total","proporcional","integral","derivativo"
+
+1.6
+ 22 de Octubre
+ - Al conectar el puerto serial, se deshabilita el boton puerto, para evitar fallas del form controlpid
+ - Se corrige el texto dentro del boton desconectar del form paneldeControl, anteriormente estaba como "Desonectar"
+ - Queda funcional los botones refrescar y cerrar del form control pid, cuando se refresca, se cierra el form temporalmente y el menuprincipal evalua si debe volver a abrir el form controlpid o no. 
+ - Queda funcional los botones refrescar y cerrar del form paneldecontrol, cuando se refresca, se cierra el form temporalmente y el menuprincipal evalua si debe volver a abrir el form controlpid o no. 
+ - Tener en cuenta con el refresco y cierre del form paneldecontrol que para que se cierre de manera correcta, primero se debe detener el datagrid.
+ - Para el evaluo de la habilitación del form controlpid cuando hay refresco, se añade en el form menuprincipal el void refresco y un timer para cumplir la condición. 
+ - Se alteran los tiempos en el form controlpid para evitar un error cuando se recibe el dato
+ - Queda funcional el paso de datos de un form a un panel, ahora los datos del nombre son pasados al form controlpid por medio del panel
+ - Se deshabilita en el form controlpid antes de la conexion puerto serial con los textbox kp,ki,kd,butonkd,botonkp,botonki,botonkd.Cuando se conecte se habilitan para digital el valor deseado    
+ - Se deshabilita toda la parte pid del form controlpid cuando se ingresa con el usuario "Nelson", se quitan label, botones que permita modificar los valores del pid
+
 1.5.5
  19 de Octubre
  - se ha modificado la logiga enel boton "botonconectar" al parecer contenia el origen de los cierres repentinos y errores del puerto serial, se ha dejado unicamente la funcion de conectrar y la desconexion se hace por parte de boitones en el siguiente inciso
@@ -10,6 +32,7 @@
  - Por falta de Uso/aplicación, se han eliminado los siguientes items:
  * Botones de nombre: BCManual, BHerramientas, button13, button12, button9, button8, button7 & BOtros 
  * Paneles de nombre: panelToolsSubMenu
+
 
 1.5.4.2
  18 de Octubre
