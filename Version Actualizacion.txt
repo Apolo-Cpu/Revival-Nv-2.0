@@ -1,3 +1,12 @@
+1.6.2
+ 26 de Octubre
+ - Se cambian nombres en el formulario de Tacometro y control
+ - Se modifican los eventos "ButtonScanPort_Click/ButtonConnect_Click/ButtonDisconnect_Click/ButtonStopRecording_Click/ButtonClear_Click_1/datorecibido" en el formulario Paneldecontrol para un correcto funcionmamiento al conectar/desconectar al puerto COM y sin bloquear los botones, y mostrar un mensaje que notifique donde puso existir el error al interactuar
+ - Se han delimitado por medio de codigo los valores minimo y maximo que se van a mostrar en el formulario prueba esp donde se evidencian los valores de p,i,d,pid 
+ - Se agregaron exepciones en prueba lectura esp para evitar fallos por desconecciones
+ - Se reorganiza formulario con las graficas decontrol PID
+ - Se hace funcional la seccion de Ayuda con capturas del paso a paso
+
 1.6.1
  25 de Octubre
  - Se configura el identificador y queda funcional para todos los form (controlpid,paneldecontrol,prueba lectura esp), los nombres son: total,grade,integral,proporcional,derivativo
