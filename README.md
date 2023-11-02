@@ -2,6 +2,7 @@
 Alojamiento de proyecto en visual studio .net
 
 // Para una mejor comprension de que se hace en cada version, revisar archivo "Version Actualizacion.txt"
+
 // A partir de la version 1.8 se realizan cambios visuales, si deseas netamente la version mas estable puedes utilizar la 1.7 y realizar tus adecuaciones, mas sin embargo recomendamos ver las notas en "Version Actualizacion.txt"
 
 **Nombre del Proyecto: Revival Nv - Robot Móvil de Péndulo Invertido**
