@@ -1,3 +1,17 @@
+1.8
+ 11 de Noviembre
+ - Se planea darle un lavado de cara como minimo al login, a partir de este punto se puede utilizar la version 1.7 sin problema, ya que se desea realizar cambios visuales unicamente
+ -  Se añaden Imagenes para diferenciar usuario
+ - Se cambbia gran parte de la plantilla de colores y reacciones al clickear
+ - Se cambia una imagen en Ayuda, y se deja en claro que la version donde se da soporte a ayuda puede distar de la version final del producto
+ - Se elimina el archivo Plantilla 
+
+1.7
+30 de Octubre
+ - Se reorganiza formulario con las graficas decontrol PID
+ - Se hace funcional la seccion de Ayuda con capturas del paso a paso
+ - Version Mas Estable hasta la fecha
+
 26 de OCtubre Aclaración Importante:
 Me he dado cuenta que dentro de multiples rar he dehado dos carpetas relacionadas a el programa Arduino, ambas carpetas contienen un codigo que funciona en gran medida con las ultimas adecuaciones realizadas, mas sin embargo recomiendo usar el que se encuentra en la carpeta llamada "balantechvs5" e ignorar la "Esp Code", repito, la RECOMENDADA PARA USO es "balantechvs5"
 
