@@ -1,5 +1,43 @@
-# Revival-Nv-2.0
-Alojamiento de proyecto en visual studio .net
+# Revival-Nv-2.0 By:
+![Nexus azul](https://github.com/Apolo-Cpu/Revival-Nv-2.0/assets/131043287/5292bca0-c31a-4684-9677-e68bb6230ad2)
+
+Lo que encontrarás aqui es un recopilatorio  de varias versiones de un mismo programa, mas sin embargo las mas recomendadas para su uso son las versiones 1.7 y 1.8, sus diferencias mas radicales serian  el diseño de la interfaz, intentamos no tocar nada respecto a su funcionamiento por si deseas realizar tu propia version/adaptacion, mas sin embargo voy a basar la explicacion por medio de la 1.8
+
+# Posibles Preguntas ¿?
+
+* ¿Que es esto?
+
+Este proyecto es un programa desarrollado en visual studio .net de nombre clave  "Revival Nv" que Permite a distintos tipos de usuarios ejercer control sobre  funciones y variables específicas para el control y monitoreo de un robot tipo Pendulo Invertido
+
+* ¿Robot tipo Pendulo invertido?
+
+Un robot de péndulo invertido es como un carrito con una vara vertical en la parte superior y un péndulo en el extremo. La tarea del robot es mantener esa vara en posición vertical, incluso cuando el carrito se mueve. Este tipo de robots son utilizados para aprender sobre cómo controlar sistemas y mantener el equilibrio
+
+* ¿Que puedo hacer con este programa?
+
+En resumen este proyecto nos permite:
+
+1. Conectarnos a un esp32 por medio de bluetooth
+2. Visualisar en forma de grafica un registro de los ultimos 10/20 grados registrados por el sensor
+3. Cambiar las Constantes correspondientes a Kp, Ki, & Kd para realizar un ajuste rapido sin pasar por el codigo en arduino
+4. Dar orden de movimiento manual (moverse hacia adelante, girar en un sentido)
+5. Examinar la respuesta del sistema (valores proporcional, integral, derivativo y PID) en forma de graficas
+
+   
+* ¿No me compila el programa, que puedo hacer?
+
+1. Revisa que librerias tienes tanto en arduino como en visual studio .net
+2. Las versiones que he subido a este recopilatorio de las que estoy seguro deberian funcionar en cualquier equipo son las 1.7 y 1.8 o final, mas sin embargo recomiendo revises el apartado llamado Version Actualizacion.txt para descartar fallos por nueva implemtacion y/o cambio
+
+
+
+
+
+# Revival 1.8:
+**Inicio de Sesion**
+
+![image](https://github.com/Apolo-Cpu/Revival-Nv-2.0/assets/131043287/2fcf5577-531d-4543-b019-081891d484b1)
+el proyecto tiene un inicio de sesion que se basa en nombre de usuario, tipo de usuario y contraseña, dicha validacion de datos está hecha con datos que se encuentran en el mismo codigo del formulario, si deseas añadir una validacion puedes hacerlo, pero ten en cuenta que el resto del programa habilita opciones por medio de dichos nombres/tipo de usuario, te recomiendo tenerlo presente
 
 // Para una mejor comprension de que se hace en cada version, revisar archivo "Version Actualizacion.txt"
 
@@ -7,8 +45,6 @@ Alojamiento de proyecto en visual studio .net
 
 **Nombre del Proyecto: Revival Nv - Robot Móvil de Péndulo Invertido**
 
-El actual  proyecto es un entorno desarrollado en visual studio .net de nombre clave  "Revival Nv", el proyecto en su totalidad se enfoca en el diseño y desarrollo de un robot móvil de péndulo invertido. 
-Este prototipo utiliza conceptos avanzados de control digital, sistemas SCADA y antenas y líneas de transmisión para lograr sus objetivos.
 
 //......................................................................................................................................................................................................................................//
 
