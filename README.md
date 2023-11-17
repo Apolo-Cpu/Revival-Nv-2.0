@@ -1,7 +1,7 @@
 # Revival-Nv-2.0 By:
 ![Nexus azul](https://github.com/Apolo-Cpu/Revival-Nv-2.0/assets/131043287/5292bca0-c31a-4684-9677-e68bb6230ad2)
 
-Lo que encontrarás aquí es un conjunto de varias versiones de un mismo programa. Sin embargo, las versiones más recomendadas para su uso son las 1.7 y 1.8. Las diferencias más notables entre ellas se centran principalmente en el diseño de la interfaz. Hemos procurado no realizar cambios significativos en su funcionamiento para permitir la creación de versiones personalizadas. A continuación, basaré la explicación en la versión 1.8.
+Lo que encontrarás aquí es un conjunto de varias versiones de un mismo programa. Sin embargo, las versiones más recomendadas para su uso son las **1.7 y 1.8.** Las diferencias más notables entre ellas se centran principalmente en el diseño de la interfaz. Hemos procurado no realizar cambios significativos en su funcionamiento para permitir la creación de versiones personalizadas. A continuación, basaré la explicación en la versión **"Final BalanTech 1.8.0"**
 
 # Revival 1.8:
 **Inicio de Sesion**
